@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.demo.uaa",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.5.0",
+    "applicationType": "uaa",
+    "baseName": "uaa",
+    "packageName": "com.demo.uaa",
+    "packageFolder": "com/demo/uaa",
+    "serverPort": "9999",
+    "authenticationType": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "MDk2YzRhYWJhZTI1NDlhZmQ4NTlhMmFkMTljN2YzYjYxODllNWMwZTAyMDU2ZjU5ODM0YjExMzNlNWFiODhhYWM1ZWE0OTIwZGE3Y2NkMDMyNzY2ZThmY2EyZmUwMGFhZTJhYjdjOWI3Y2M0NGFlMmMyOWQ1NWQ5NmFmMjBiZDA=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "th",
+      "vi"
+    ],
+    "blueprints": [],
+    "skipClient": true
+  }
+}
